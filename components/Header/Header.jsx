@@ -18,15 +18,15 @@ const navigation = {
           name: "New Arrivals",
           href: "#",
           imageSrc:
-            "https://tailwindui.com/img/ecommerce-images/mega-menu-category-01.jpg",
+            "/womens-new-arrivals.png",
           imageAlt:
             "Models sitting back to back, wearing Basic Tee in black and bone.",
         },
         {
-          name: "Basic Tees",
+          name: "Gym Suits",
           href: "#",
           imageSrc:
-            "https://tailwindui.com/img/ecommerce-images/mega-menu-category-02.jpg",
+            "/womens-gymsuits.png",
           imageAlt:
             "Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees.",
         },
@@ -34,7 +34,7 @@ const navigation = {
           name: "Accessories",
           href: "#",
           imageSrc:
-            "https://tailwindui.com/img/ecommerce-images/mega-menu-category-03.jpg",
+            "womens-sets.png",
           imageAlt:
             "Model wearing minimalist watch with black wristband and white watch face.",
         },
@@ -319,12 +319,7 @@ export default function Example() {
                                                   />
                                                   {item.name}
                                                 </a>
-                                                <p
-                                                  aria-hidden="true"
-                                                  className="mt-0.5 text-neutral-700 sm:mt-1"
-                                                >
-                                                  Shop now
-                                                </p>
+                                               
                                               </div>
                                             </div>
                                           </div>
